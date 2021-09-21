@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #202020;
+
+}
+
+.navbar{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+main {
+    background-image: url(../img/1-fondo_web.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.texto-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+}
+
+.texto-hero h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight:lighter;   
+    font-size: 55px;
+}
+
+.about{
+    padding-top: 120px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: #202020;
+    display: flex;
+    
+}
+
+.perfil{
+    height: 350px;
+    margin-right: 50px;
+}
+
+.texto-about{
+    padding-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 28px;
+    text-align: justify;
+}
+
+.texto-about p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight:300;
+}
+
+.texto-about a{
+    padding: 10px 40px 10px 40px;
+    background-color:#202020;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    font-size:large;
+    
+}
+
+.texto-about a:hover{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.portafolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #202020;
+}
+
+.contacto{
+    background-color: #202020;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.contacto h3{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.3rem;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.contacto p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.insta-logo img{
+    margin-top: 10px;
+    height: 40px;
+}
+
+footer{
+    background-color: #202020;
+    padding-bottom: 50px;
+   
+}
+
+.derechos{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.desarrollo{
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    
+}
+
+.desarrollo a{
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    margin-left: 5px;
+}
+
+.desarrollo a:hover{
+    color: #8e8e8e;
+    text-decoration: none;
+    font-style: normal;
+}
+
+@media (min-width:400px){
+
+    .texto-hero{
+        margin-left: 5vh;
+        margin-right: 5vh;
+        height: 500px;
+    }
+
+    
+}
+
+@media (max-width:1150px) {
+    .texto-hero h1{
+        font-family: 'Roboto', sans-serif;
+        font-weight:lighter;   
+        font-size: 45px;
+    }
+
+    .about{
+        padding-top: 10%;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    .perfil{
+        width: 100%;
+        height: auto;
+        padding-bottom: 10%;
+
+    }
+    
+    .texto-about{
+        font-size: 18px;
+    }
+    
+    .texto-about p{
+        font-weight:300;
+        margin-bottom: 15%;
+    }
+    
+    .portafolio{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .contacto h3{
+        font-size: 4vh;
+    }
+    
+    .contacto p{
+        font-size: 3vh;
+    }
+    
+    .insta-logo img{
+        margin-top: 10px;
+        height: 5vh;
+    }
+
+    .derechos{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5vh;
+    }
+    
+    .desarrollo{
+        color: white;
+        text-decoration: none;
+        font-style: normal;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+
+        }
+}
